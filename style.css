@@ -39,7 +39,7 @@ body {
 .menu-link {
     display: inline-block;
     padding: 12px 30px;
-    color: var(--texto);
+    color: whitesmoke;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -50,7 +50,7 @@ body {
     overflow: hidden;
 }
 .menu-link::before {
-    content: '';
+    content: '  ';
     position: absolute;
     top: 0;
     left: -100%;
