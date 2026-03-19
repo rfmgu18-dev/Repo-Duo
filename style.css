@@ -217,6 +217,16 @@ html {
     object-fit: cover;
     height: 110px;
 }
+.jugadores-grid {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.jugadores-main {
+    flex: 1;
+    min-width: 0;
+}
 @media (max-width: 1024px) {
     .historia-grid {
         flex-direction: column;
