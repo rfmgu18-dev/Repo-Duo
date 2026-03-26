@@ -37,7 +37,7 @@ body {
     text-align: center;
     margin-bottom: 35px;
     position: relative;
-    font-weight: 750px ;
+    font-weight: 1200px ;
 }
 .menu-link {
     display: inline-block;
@@ -118,6 +118,7 @@ html {
     flex-direction: column;
     gap: 10px;
     position: relative;
+    margin-bottom: -13px;
 }
 .titulo-destacado {
     font-size: 3rem;
@@ -147,13 +148,15 @@ html {
     transition: all 0.4s ease;
     height: 100%;
     box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.3);
+    font-weight: 400;
 }
-.infocard:hover {
-    transform: translateY(7px);
-    border-color: #5f581699;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px -10px rgba(30, 28, 20, 0.8);
-    font-weight: 500;
+.side-fotos img {
+    transition: transform 0.3s ease, filter 0.3s ease, border-color 0.3s ease;
+}
+.side-fotos img:hover {
+    transform: scale(1.05) translateY(-5px);
+    filter: brightness(1.08) contrast(1.1);
+    border-color: rgba(255, 215, 0, 0.8);
 }
 .infotitle {
     font-size: 20px;
@@ -185,8 +188,14 @@ html {
     border-radius: 35px;
     font-size: 0.85rem;
     color: #ffffff;
+    transition: transform 0.3s ease, filter 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
+.stat:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.35), inset 0 0 8px rgba(255, 255, 255, 0.2);
+    filter: brightness(1.08) contrast(1.1);
+    border-color: rgb(143, 121, 0);
+}
 .historia-sidebar {
     width: 300px;
     background: rgba(10, 16, 29, 0.7);
