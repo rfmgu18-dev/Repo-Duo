@@ -219,10 +219,19 @@ html {
     flex-direction: column;
     gap: 12px;
 }
+.side-fotos img:hover {
+    transform: scale(1.5px);
+    box-shadow: 0 25px 35px -15px  rgba(255, 215, 0, 0.3);
+}
+.side-fotos img:hover::before {
+    content: '';
+    position: absolute;
+    left: 100%;
+}
 .side-fotos img {
     width: 100%;
     border-radius: 12px;
-    border: 1px solid rgba(255, 215, 0, 0.25);
+    border: 1px solid  rgba(255, 215, 0, 0.3);
     object-fit: cover;
     height: 110px;
 }
