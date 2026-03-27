@@ -254,6 +254,148 @@ html {
         max-width: 100%;
     }
 }
+
+/* Ajustes específicos para la sección Mundo (id mundiales) en móviles */
+@media (max-width: 768px) {
+    #mundiales {
+        padding: 0 12px 20px;
+    }
+    #mundiales .cuadro-principal {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 14px;
+    }
+    #mundiales .contenido {
+        display: block;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+    #mundiales .columna-titulo {
+        padding-right: 0;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    #mundiales .titulo-destacado {
+        font-size: 2.2rem;
+        line-height: 1.1;
+    }
+    #mundiales .historia-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 10px;
+    }
+    #mundiales .historia-main {
+        width: 100%;
+    }
+    #mundiales .infocard {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 18px;
+        padding: 18px;
+        border-radius: 24px;
+    }
+    #mundiales .videocont {
+        gap: 0;
+        margin: 0 auto 12px;
+        justify-content: center;
+    }
+    #mundiales .video-principal {
+        width: 100%;
+        max-width: 480px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    #mundiales .infotext {
+        margin: 12px 0 16px;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    #mundiales .infostats {
+        padding: 0 8px;
+        gap: 8px;
+        justify-items: center;
+    }
+    #mundiales .stat {
+        width: 90%;
+        max-width: 340px;
+        min-width: 0;
+        padding: 6px 8px;
+        border-width: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+    #mundiales .titulo-destacado {
+        font-size: 1.6rem;
+    }
+    #mundiales .infocard {
+        padding: 10px;
+        margin-bottom: 12px;
+        border-radius: 18px;
+    }
+    #mundiales .videocont {
+        margin-bottom: 10px;
+    }
+    #mundiales .video-principal {
+        max-width: 320px;
+        border-radius: 16px;
+    }
+    #mundiales .infotext {
+        font-size: 0.88rem;
+        margin-bottom: 10px;
+    }
+    #mundiales .infostats {
+        gap: 6px;
+        padding: 0 4px;
+    }
+    #mundiales .stat {
+        font-size: 0.72rem;
+        padding: 6px 8px;
+        width: 92%;
+        max-width: 320px;
+        border-width: 2px;
+    }
+}
+
+@media (max-width: 430px) {
+    #mundiales {
+        padding: 0 8px 16px;
+    }
+    #mundiales .cuadro-principal {
+        padding: 8px;
+        margin: 10px 0;
+    }
+    #mundiales .titulo-destacado {
+        font-size: 1.5rem;
+    }
+    #mundiales .infocard {
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3);
+    }
+    #mundiales .video-principal {
+        max-width: 280px;
+    }
+    #mundiales .infotext {
+        font-size: 0.85rem;
+        margin-bottom: 8px;
+    }
+    #mundiales .infostats {
+        gap: 4px;
+        padding: 0 3px;
+    }
+    #mundiales .stat {
+        font-size: 0.7rem;
+        padding: 5px 6px;
+        width: 96%;
+        max-width: 300px;
+    }
+}
+
 .sidebar-title {
     font-size: 1.1rem;
     font-weight: 700;
